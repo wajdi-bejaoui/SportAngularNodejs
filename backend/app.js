@@ -2,7 +2,6 @@
 const express = require ('express');
 const bodyParser = require("body-parser");
 const mongoose = require('mongoose');
-const axios = require("axios");
 const cors = require('cors');
 const authRouter = require("./routes/authRoutes")
 

@@ -5,7 +5,6 @@ const express = require("express");
 const session = require ("express-session");
 const { StatusCodes } = require('http-status-codes');
 const { log } = require("util");
-const multer = require("multer");
 const path = require ("path");
 const app = express();
 const secretKey = "your-secret-key";
